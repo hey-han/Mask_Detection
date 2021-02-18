@@ -21,8 +21,7 @@ sudo apt-get update
 
 2. **pip3**
 install
-'''
-sudo apt-get install python3-pip  #install
+'''sudo apt-get install python3-pip  #install
 pip3 --version  #check pip version
 pip3 --help  #view the list of all pip commands and options
 '''
