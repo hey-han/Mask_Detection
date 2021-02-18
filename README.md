@@ -53,7 +53,7 @@ sudo pip3 install -U numpy==1.16.1 future==0.18.2 mock==3.0.5 h5py==2.10.0 keras
 sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow  #this command will install the latest version of TensorFlow compatible with the JetPack
 sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 ‘tensorflow<2’  #install a TensorFlow 1.x package
 ```
-more details of Tensorflow installation can be found [here] (https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
+more details of Tensorflow installation can be found here: (https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
 
 
 
