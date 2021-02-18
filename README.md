@@ -13,25 +13,38 @@ After transferring the model from your PC to Jetson, you may notice that some sy
 
 The indtallation of some common packages and many related instructions are given here, which may help you.
 
-1. **Ensure all packages are up to date**
+1. **Ensure all packages are up to date** <br>
+important step before the installation of new packages <br>
 ```python
-sudo apt-get update #important step before the installation of new packages
+sudo apt-get update 
+sudo apt-get upgrade
 ```
 
 2. **pip3**
-
-'''
+```python
 sudo apt-get install python3-pip  #install
+sudo pip3 install -U pip testresources setuptools
 pip3 --version  #check pip version
 pip3 --help  #view the list of all pip commands and options
-'''
-3. **Python3**
-'''
+```
 
-'''
+3. **Python3**
+```python
+sudo apt install python3.7  #install
+python ––version  #check python version
+```
+
+4. CUDA
+
+
 
 4. **Pytorch**
-'''
-
-
-
+```python
+pip3 install Cython
+wget https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl -O torch-1.6.0-cp36-cp36m-linux_aarch64.whl
+pip3 install numpy torch-1.6.0-cp36-cp36m-linux_aarch64.whl  #install
+```
+```
+import torch  #verify
+print(torch.__version__)
+```
