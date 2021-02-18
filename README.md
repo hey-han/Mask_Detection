@@ -14,9 +14,8 @@ After transferring the model from your PC to Jetson, you may notice that some sy
 The indtallation of some common packages and many related instructions are given here, which may help you.
 
 1. **Ensure all packages are up to date**
-important step before the installation of new packages <br>
 ```python
-sudo apt-get update
+sudo apt-get update #important step before the installation of new packages
 ```
 
 2. **pip3**
