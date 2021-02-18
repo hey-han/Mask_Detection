@@ -15,7 +15,7 @@ The indtallation of some common packages and many related instructions are given
 
 1. **Ensure all packages are up to date**
 important step before the installation of new packages <br>
-  
+           
 '''python
 sudo apt-get update
 '''
