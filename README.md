@@ -5,7 +5,7 @@ Contributors: Dong Sheng, Shitala Prasad, Jovan Hermawan, Zhang Han
 ## Jetson Tutorial
 This tutorial will be helpful if you aleardy have your model, which is about how to optimize the model and deploy the model on Jetson.
 
-#### Step 1:
+#### Step 1: Model optimization
 It is more efficient to optimize the model using your PC than Jetson.
 
 1. **For Pytorch models**, the process is: 'origianl Pytorch model->ONNX model->TensorRT model'
