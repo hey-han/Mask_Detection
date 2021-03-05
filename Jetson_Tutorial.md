@@ -161,11 +161,11 @@ wget --quiet -O archiconda.sh https://github.com/Archiconda/build-tools/releases
 more information please view: (https://forums.developer.nvidia.com/t/anaconda-for-jetson-nano/74286)
 
 10. **Virtual environment** <br>
-'''
+```
 source ~/archiconda3/bin/activate root
 conda env list  #print the list of all virtual environments
 conda create --name env_name  #create a new virtual environment
 conda actviate env_name  #activate the virtual environment
 conda deactivate  #deactivate the current environment
 conda remove --name env_name --all  #delete the environment
-'''
+```
