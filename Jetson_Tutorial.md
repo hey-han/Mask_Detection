@@ -1,11 +1,7 @@
-# Mask_Detection
-A real-time mask detection project using Jetson Xavier NX <br>
-Contributors: Dong Sheng, Shitala Prasad, Jovan Hermawan, Zhang Han
-
-## Jetson Tutorial
+# Jetson Tutorial
 This tutorial will be helpful if you aleardy have your model, which is about how to optimize the model and deploy the model on Jetson.
 
-#### Step 1: Model optimization
+### Step 1: Model optimization
 It is more efficient to optimize the model using your PC than Jetson.
 
 1. **For Pytorch models**, the process is: 'origianl Pytorch model->ONNX model->TensorRT model'
@@ -84,10 +80,10 @@ TensorRT takes a frozen TensorFlow graph as input and returns an optimized graph
 !saved_model_cli show --all --dir output_saved_model_dir
 ```
 
-#### Step 2: Save files at Jetson locally
+### Step 2: Save files at Jetson locally
 You should transfer the final model from your PC to Jetson first. One recommended way is to upload all the files to Google Cloud, then you can login your google account in Jetson browser and download the files to Jetson.
 
-#### Step 3: Create the required environment on Jetson
+### Step 3: Create the required environment on Jetson
 After transferring the model from your PC to Jetson, you may notice that some syntax does not working on Jetson, especially those about package installations. You should modify your code a bit and check which packages are required to be installed manually. 
 
 The indtallation of some common packages and many related instructions are given here, which may help you.
